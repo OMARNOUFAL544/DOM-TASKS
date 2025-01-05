@@ -1,0 +1,22 @@
+
+
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  
+  #registrationMessage {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .list-group-item button {
+    margin-left: 10px;
+  }
+  

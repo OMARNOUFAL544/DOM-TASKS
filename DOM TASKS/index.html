@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Exercises</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-4">
+
+    <!-- Basic Exercises -->
+
+    <h2>Basic Exercises</h2>
+    <form id="registerForm">
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" id="username" class="form-control" required>
+        <small class="error-message"></small>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" required>
+        <small class="error-message"></small>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" id="password" class="form-control" required>
+        <small class="error-message"></small>
+      </div>
+      <div class="mb-3">
+        <label for="confirmPassword" class="form-label">Confirm Password</label>
+        <input type="password" id="confirmPassword" class="form-control" required>
+        <small class="error-message"></small>
+      </div>
+      <button id="registerBtn" class="btn btn-primary" disabled>Register</button>
+    </form>
+    <div id="registrationMessage" class="mt-3"></div>
+
+    <!-- Mid-Level Exercise -->
+
+
+    <h2 class="mt-5">Mid-Level Exercise</h2>
+    <p id="paragraph">
+      JavaScript is a versatile programming language that enables developers to create dynamic and interactive web applications.Technology is the application of scientific knowledge to practical aims, encompassing everything from hand tools to computers and engineering1. It increases efficiency in various aspects of our lives and has made us entirely dependent on it
+    </p>
+
+    <!-- Advanced Exercise -->
+
+    
+    <h2 class="mt-5">Advanced Exercise</h2>
+    <form id="shoppingListForm">
+      <div class="mb-3">
+        <label for="item" class="form-label">enter a new item</label>
+        <input type="text" id="item" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-success">Add item</button>
+    </form>
+    <ul id="shoppingList" class="list-group mt-3"></ul>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
